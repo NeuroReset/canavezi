@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Canavezi - Peça Agora</title>
+    <link rel="preload" as="image" href="assets/garlic-bread-bg-fast.jpg" fetchpriority="high" />
     <style>
       :root {
         --orange: #f45112;
@@ -30,7 +31,7 @@
         color: var(--paper);
         background:
           linear-gradient(180deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.24)),
-          url("assets/garlic-bread-bg.png") center / cover fixed;
+          url("assets/garlic-bread-bg-fast.jpg") center / cover;
       }
 
       .page {
@@ -194,7 +195,7 @@
           rel="noopener"
         >
           <span class="brand-logo" aria-hidden="true">
-            <img src="src/logocardwhats.jpeg" alt="" />
+            <img src="src/logocardwhats-small.jpg" alt="" width="180" height="180" decoding="async" />
           </span>
           <span class="icon" aria-hidden="true">📱</span>
           <span class="button-text">Peça pelo WhatsApp</span>
